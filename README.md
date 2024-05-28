@@ -1,5 +1,5 @@
 # LighthouseIOT
-Arduino проект IOT Lighthouse
+Arduino project IOT Lighthouse
 
 ![Lighthouse](Schemes/ico_lighthouse.png)
 
@@ -25,7 +25,7 @@ IOT Lighthouse може керуватися від сенсорної кноп�
 
 Для входу в релакс я попросив ChatGPT створити коротке оповідання.
 
-_На узбережжі моря стояв старий, але надійний маяк. Його вогні вже багато років вказували шлях кораблям, допомагаючи морякам уникати небезпек. Доглядачем цього маяка був Олександр Семенович – добрий і розумний чоловік з великим почуттям гумору. У вільний від вахти час він захоплювався програмуванням і дизайном, створюючи неймовірні проєкти на своєму ноутбуці. Крім того, Олександр Семенович був великим поціновувачем вина: взимку та восени він полюбляв червоне, весною та влітку – біле, а особливо цінував оранжеве вино, особливо грузинське.
+<i>На узбережжі моря стояв старий, але надійний маяк. Його вогні вже багато років вказували шлях кораблям, допомагаючи морякам уникати небезпек. Доглядачем цього маяка був Олександр Семенович – добрий і розумний чоловік з великим почуттям гумору. У вільний від вахти час він захоплювався програмуванням і дизайном, створюючи неймовірні проєкти на своєму ноутбуці. Крім того, Олександр Семенович був великим поціновувачем вина: взимку та восени він полюбляв червоне, весною та влітку – біле, а особливо цінував оранжеве вино, особливо грузинське.
 
 Разом з ним жив його ліпший друг – маленький чіхуахуа на ім'я Арчибальд, або просто Арчік. Арчік був незвичайним собакою: він мав відмінну логіку і навіть претендував на вакансію Junior у сфері ІТ. Кожного вечора, коли Олександр Семенович розпочинав свою програмістську роботу, Арчік сідав у нього на руках, уважно спостерігаючи за процесом.
 
@@ -39,7 +39,7 @@ _На узбережжі моря стояв старий, але надійни
 Арчік, задоволено виляючи хвостиком, гавкнув у відповідь, наче підтверджуючи слова свого господаря. Олександр Семенович підняв келих ще раз і, посміхаючись, промовив:
 – За наші проєкти, за наш маяк і за наше вино! І, звісно, за наші спогади. Сподіваюсь, одного дня ти, Арчіку, таки станеш справжнім Junior програмістом.
 
-З цими словами вони продовжили роботу, створюючи нові рядки коду, які, можливо, одного дня стануть основою для революційного програмного забезпечення. А поки що, у маяка на узбережжі моря, де завжди вирує вітер і пахне солоним повітрям, їхня команда – мудрий доглядач і його вірний собака – продовжувала творити майбутнє, не забуваючи про гумор і радість життя._
+З цими словами вони продовжили роботу, створюючи нові рядки коду, які, можливо, одного дня стануть основою для революційного програмного забезпечення. А поки що, у маяка на узбережжі моря, де завжди вирує вітер і пахне солоним повітрям, їхня команда – мудрий доглядач і його вірний собака – продовжувала творити майбутнє, не забуваючи про гумор і радість життя.</i>
 
 ---
 
@@ -130,7 +130,7 @@ IOT Lighthouse can be controlled by the touch button built into the structure, r
 
 To get into relaxation mode, I asked ChatGPT to create a short story.
 
-_On the seashore stood an old but reliable lighthouse. Its lights had guided ships for many years, helping sailors avoid dangers. The keeper of this lighthouse was Oleksandr Semenovych, a kind and wise man with a great sense of humor. In his free time, he was passionate about programming and design, creating incredible projects on his laptop. Additionally, Oleksandr Semenovych was a great wine enthusiast: he preferred red wine in winter and autumn, white wine in spring and summer, and especially valued orange wine, particularly Georgian.
+<i>On the seashore stood an old but reliable lighthouse. Its lights had guided ships for many years, helping sailors avoid dangers. The keeper of this lighthouse was Oleksandr Semenovych, a kind and wise man with a great sense of humor. In his free time, he was passionate about programming and design, creating incredible projects on his laptop. Additionally, Oleksandr Semenovych was a great wine enthusiast: he preferred red wine in winter and autumn, white wine in spring and summer, and especially valued orange wine, particularly Georgian.
 
 His best friend, a little Chihuahua named Archibald, or simply Archik, lived with him. Archik was an unusual dog: he had excellent logic and even aspired to a Junior IT position. Every evening, when Oleksandr Semenovych started his programming work, Archik would sit on his lap, attentively watching the process.
 
@@ -144,7 +144,7 @@ Tired after a few hours of work, Oleksandr Semenovych decided to take a break. H
 Archik, wagging his tail contentedly, barked in response, as if confirming his master's words. Oleksandr Semenovych raised his glass again and, smiling, said:
 - To our projects, to our lighthouse, and to our wine! And, of course, to our memories. I hope that one day, Archik, you'll indeed become a real Junior programmer.
 
-With these words, they continued their work, creating new lines of code that might one day become the basis for revolutionary software. Meanwhile, at the lighthouse on the seashore, where the wind always blows and the air smells salty, their team – the wise keeper and his loyal dog – continued to create the future, never forgetting humor and the joy of life._
+With these words, they continued their work, creating new lines of code that might one day become the basis for revolutionary software. Meanwhile, at the lighthouse on the seashore, where the wind always blows and the air smells salty, their team – the wise keeper and his loyal dog – continued to create the future, never forgetting humor and the joy of life.</i>
 
 ---
 
