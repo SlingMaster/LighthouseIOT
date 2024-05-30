@@ -1,0 +1,17 @@
+[
+{"n":"Calm on the sea","v":[1,255,1,100,0]},
+{"n":"Rain on the sea","v":[2,255,1,100,0]},
+{"n":"Storm on the sea","v":[3,255,1,100,0]},
+{"n":"Storm with thunder","v":[4,255,1,100,0]},
+{"n":"Fog in Odessa","v":[5,255,1,100,0]},
+{"n":"Early morning","v":[6,255,1,100,0]},
+{"n":"Siesta","v":[7,255,1,100,0]},
+{"n":"Quiet evening","v":[8,255,1,100,0]},
+{"n":"Evening watch","v":[9,255,1,100,0]},
+{"n":"Night watch","v":[10,255,1,100,0]},
+{"n":"Change of watch","v":[11,255,1,100,0]},
+{"n":"NostalgicCaretaker","v":[12,255,1,100,0]},
+{"n":"Keeper on a tip","v":[13,255,1,100,0]},
+{"n":"Abandoned Lighthouse","v":[14,255,1,100,0]},
+{"n":"Real Time","v":[15,255,1,100,0]}
+]
