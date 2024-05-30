@@ -11,7 +11,8 @@ Arduino project IOT Lighthouse
 
 Прошивка для IOT Lighthouse та кросплатформне програмне забезпечення для керування. Проект поєднує в собі діораму «Маяк» з використанням візуального та звукового супроводу з можливістю дистанційного керування по WiFi. Прошивка сумісна з програмним забезпеченням для лампи «Javelin». Оновлення по OTA.
 
-IOT Lighthouse може керуватися від сенсорної кнопки, вбудованої в конструкцію, дистанційно програмним забезпеченням та від датчиків, вбудованих у робота «WiFi Robot007». Озвучення підібране таким чином, щоб підкреслити назву ефекту та підтримати візуальні ефекти. В основному це плескіт моря для створення релаксу та ефекти жартів. Кожну годину в денний час б'ють склянки.
+IOT Lighthouse може керуватися від сенсорної кнопки, вбудованої в конструкцію, дистанційно програмним забезпеченням та від датчиків, вбудованих у робота «WiFi Robot007». Озвучення підібране таким чином, щоб підкреслити назву ефекту та підтримати візуальні ефекти. В основному це плескіт моря для створення релаксу та ефекти жартів. Кожну годину в денний час б'ють склянки. Можна використовувати як MP3 плеєр. Для цього потрібно створити папку `MP3` на SD для DFPlayer. Для коректної роботи потрібно, щоб хоча б один файл мав у своїй назві `0001_`. Це потрібно для коректного старту. Решта файлів можна не перейменовувати (документація до DFPlayer рекомендує такий формат `0001.mp3 ... 3000.mp3`).
+
 
 ## Візуальні ефекти:
 
@@ -22,6 +23,29 @@ IOT Lighthouse може керуватися від сенсорної кноп�
 - освітлення в будинку наглядача маяка.
 
 ![IOT Lighthouse](Schemes/LighthouseIOT.jpg)
+
+## Soft
+
+Кросплатформне програмне забезпечення для керування
+
+### Функції:
+
+- дистанційне управління вибором ефектів;
+- налаштування користувача;
+- управління MP3 плеєром (play, stop, prev, next, volume level);
+
+- **з браузера та для iOS за посиланням:**
+  - UI (UA) • [http://winecard.ltd.ua/dev/WifiLampRemote3/index.html?ip=192.168.1.1&dev=1&timeout=200&sound=1&lang=0](http://winecard.ltd.ua/dev/WifiLampRemote3/index.html?ip=192.168.1.1&dev=1&timeout=200&sound=1&lang=0)
+  - **Примітка:** Потрібно вказати IP роутера.
+
+- **для Windows:**
+  - Папка `\RemoteControlForWindows`, інсталяція не потрібна.
+
+- **для Android:**
+  - Файл установки `.apk` у папці `\RemoteControlForAndroid`.
+
+![Soft IOT Lighthouse](Schemes/AndroidApp.jpg)
+
 
 Для входу в релакс я попросив ChatGPT створити коротке оповідання.
 
@@ -117,7 +141,8 @@ IOT Lighthouse може керуватися від сенсорної кноп�
 
 Firmware for the IOT Lighthouse and cross-platform software for control. The project combines a "Lighthouse" diorama with visual and sound accompaniment and the ability to control it remotely via WiFi. The firmware is compatible with the software for the "Javelin" lamp. Update via OTA.
 
-IOT Lighthouse can be controlled by the touch button built into the structure, remotely by software, and by sensors embedded in the "WiFi Robot007". The sound effects are selected to highlight the name of the effect and support the visual effects, mainly the sound of the sea for relaxation and humorous effects. Every hour during the day, the glass strikes.
+IOT Lighthouse can be controlled by the touch button built into the structure, remotely by software, and by sensors embedded in the "WiFi Robot007". The sound effects are selected to highlight the name of the effect and support the visual effects, mainly the sound of the sea for relaxation and humorous effects. Every hour during the day, the glass strikes. You can use this as an MP3 player. To do this, create an `MP3` folder on the SD card for the DFPlayer. For correct operation, at least one file must have `0001_` in its name. This is required for proper startup. Other files do not need to be renamed (DFPlayer documentation recommends the format `0001.mp3 ... 3000.mp3`).
+
 
 ## Visual Effects:
 
@@ -127,6 +152,28 @@ IOT Lighthouse can be controlled by the touch button built into the structure, r
 - lighting of the stairs in the lighthouse tower
 - lighting in the lighthouse keeper's house
 
+## Soft
+
+Cross-platform software for management
+
+### Functions:
+
+- remote control of effect selection;
+- user settings;
+- MP3 player control (play, stop, prev, next, volume level);
+
+- **from a browser and for iOS at the link:**
+  - UI (EN) • [http://winecard.ltd.ua/dev/WifiLampRemote3/index.html?ip=192.168.1.1&dev=1&timeout=200&sound=1&lang=1](http://winecard.ltd.ua/dev/WifiLampRemote3/index.html?ip=192.168.1.1&dev=1&timeout=200&sound=1&lang=1)
+
+  - **Note:** You need to specify the router's IP.
+
+- **for Windows:**
+  - Folder `\RemoteControlForWindows`, no installation needed.
+
+- **for Android:**
+  - Installation file `.apk` in the folder `\RemoteControlForAndroid`.
+
+![Soft IOT Lighthouse](Schemes/AndroidApp.jpg)
 
 To get into relaxation mode, I asked ChatGPT to create a short story.
 
