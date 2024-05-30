@@ -78,7 +78,7 @@ IOT Lighthouse може керуватися від сенсорної кноп�
 
 * Для повтору можна скористатися інструкцією у файлі `Instruction.doc`.
 * Потрібні бібліотеки знаходяться в архіві `libraries`.
-* Файли озвучення знаходяться в архіві `SD`. Треба зробити копію та вставити в `DFPlayer`.
+* Файли озвучення знаходяться в архівах `SD1` та `SD2` . Треба зробити копію та вставити в `DFPlayer`.
 
 Зверніть увагу, що в папках `50` та `75` можуть бути MP3 композиції на ваш розсуд:
 
@@ -206,7 +206,7 @@ Links to this firmware and software:
 
 * To replicate, you can use the instructions in the `Instruction.doc` file.
 * Required libraries are in the `libraries` archive.
-* Sound files are in the `SD` archive. Make a copy and insert it into `DFPlayer`.
+* Sound files are in the `SD1` and `SD2`archives. Make a copy and insert it into `DFPlayer`.
 
 Note that the `50` and `75` folders may contain MP3 tracks at your discretion:
 
