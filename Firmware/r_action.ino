@@ -115,11 +115,8 @@ String TimeStr(uint32_t data) {
 // ======================================
 void getForecast() {
   /* потрібно зареєструватись на сайті https://openweathermap.org/weather-conditions
-     отримати API_KEY
-     для Харкова рядок має такий вигляд  https://api.openweathermap.org/data/2.5/weather?q=Kharkiv,UA&lang=ua&units=metric&APPID= «API_KEY»
+     отримати url з API_KEY
   */
-  // https://openweathermap.org/weather-conditions
-
   // example |  https://randomnerdtutorials.com/decoding-and-encoding-json-with-arduino-or-esp8266/
 
   std::unique_ptr<BearSSL::WiFiClientSecure>client(new BearSSL::WiFiClientSecure);
@@ -132,7 +129,7 @@ void getForecast() {
 
   // Initializing an HTTPS communication using the secure client
   LOG.print("[HTTPS] begin...\n\r");
-  String w_url = "https://api.openweathermap.org/data/2.5/weather?q=Kharkiv,UA&lang=ua&units=metric&APPID=" + API_KEY;
+  String w_url = URL_API;
   if (https.begin(*client, w_url)) {  // HTTPS
     LOG.print("[HTTPS] GET...\n\r");
     // start connection and send HTTP header

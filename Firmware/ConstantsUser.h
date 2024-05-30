@@ -134,7 +134,8 @@ uint8_t SLEEP_TIMER             (3U);                       // Время авт
 
 
 // === ЗОВНІШНЄ УПРАВЛІННЯ ==============
-const String  API_KEY = "YOU API KEY";               // потрібно зареєструватись на сайті https://openweathermap.org/weather-conditions отримати API_KEY
+
+static const String  URL_API = "YOU URL_API";               // потрібно зареєструватись на сайті https://openweathermap.org/weather-conditions отримати url з API_KEY
 
 #define USE_CPU_USAGE
 #define USE_MQTT              (false)                       // true - используется mqtt клиент, false - нет
